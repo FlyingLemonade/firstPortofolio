@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christopher Ryan-Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header id="navbar">
+      <div id="logo">
+        <img
+          src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg"
+          alt="Logo"
+        />
+      </div>
+
+      <nav id="navbar-list">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div>
+          <img
+            id="my-photo"
+            src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg"
+            alt="My Photo"
+          />
+        </div>
+
+        <div id="text">
+          <div id="name">Christopher Ryan</div>
+
+          <div id="big-text">Java Programmer</div>
+
+          <div id="small-text">Trust me, I can code</div>
+
+          <div id="about-me">
+            <a href="#detail"><button>About Me</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="detail">
+        <div id="about-me-box">
+          <div id="about-me-title">
+            <b>About Me</b>
+          </div>
+          <div id="about-me-text">
+            Hi! I'm Christopher Ryan, an undergraduate student concentrating in
+            informatics. I have a strong interest in IT, including networking,
+            development, and programming. I have participated in workshops and
+            online courses to expand my skills beyond my academic activities.
+            <br /><br />
+            Along with developing my hard skills, I have also honed my soft
+            skills such as leadership, communication, and problem-solving
+            through community activities and working on projects with
+            colleagues.
+            <br /><br />
+            I am always looking for opportunities to apply my abilities and
+            expand my knowledge. My goal is to become an authority in various IT
+            topics.
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <span id="skills-title"><b>SKILLS</b></span>
+
+        <div class="container">
+          <div class="row">
+            <div id="grid-1">
+              <div class="serviceBox teal">
+                <h3 class="title">Java</h3>
+                <p class="description">
+                  Able to create projects with the Java programming language and
+                  use Java frameworks such as JavaFX with Scene Builder.
+                </p>
+                <div class="service-icon">
+                  <img
+                    class="icon"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+                    alt="Java Icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div id="grid-2">
+              <div class="serviceBox orange">
+                <h3 class="title">JavaScript</h3>
+                <p class="description">
+                  Understand basic JavaScript at the entry level, such as
+                  variables, conditional execution, loops, functions, and
+                  exception handling.
+                </p>
+                <div class="service-icon">
+                  <img
+                    class="icon"
+                    src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+                    alt="JavaScript Icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div id="grid-3">
+              <div class="serviceBox purple">
+                <h3 class="title">Web Development</h3>
+                <p class="description">
+                  Understand basic HTML and CSS for website development, and use
+                  JavaScript and Bootstrap to enhance interactivity.
+                </p>
+                <div class="service-icon">
+                  <img
+                    class="icon"
+                    src="https://miro.medium.com/v2/resize:fit:792/1*lJ32Bl-lHWmNMUSiSq17gQ.png"
+                    alt="Web Development Icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div id="grid-4">
+              <div class="serviceBox red">
+                <h3 class="title">Database</h3>
+                <p class="description">
+                  Create database models using Oracle Data Modeler and work with
+                  MySQL and APEX for CRUD operations.
+                </p>
+                <div class="service-icon">
+                  <img
+                    class="icon"
+                    src="https://cdn-icons-png.flaticon.com/512/657/657695.png"
+                    alt="Database Icon"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div id="grid-5">
+              <div class="serviceBox blue">
+                <h3 class="title">Security</h3>
+                <p class="description">
+                  Understand the basics of computer security, including types of
+                  malware, securing end devices, and common unauthorized access
+                  techniques.
+                </p>
+                <div class="service-icon">
+                  <img
+                    class="icon"
+                    src="https://cdn-icons-png.flaticon.com/512/6783/6783360.png"
+                    alt="Security Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-me">
+        <span id="contact-me-title">CONTACT</span>
+
+        <ul id="contact-me-details">
+          <li><i class="fa fa-envelope"></i>christopher.ryan7231@gmail.com</li>
+          <li><i class="fa fa-map-marker"></i>Surabaya, Indonesia</li>
+        </ul>
+      </section>
+
+      <section>
+        <i
+          onclick="scrollToTop()"
+          id="to-top"
+          class="fa fa-arrow-up"
+          aria-hidden="true"
+        ></i>
+      </section>
+    </main>
+  </body>
+</html>
